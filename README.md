@@ -1,0 +1,2 @@
+# AplikacjaTreningowa
+ First mobile application

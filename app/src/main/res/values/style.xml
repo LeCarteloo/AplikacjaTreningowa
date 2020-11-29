@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"/>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="progressBarBlue" parent="@style/Theme.AppCompat">
+        <item name="colorAccent">@color/lightBlue</item>
+    </style>
+
+    <style name="toastBlue">
+        <item name="colorBackground">#121212</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/lightBlue</item>
+        <item name="textColor">@color/lightBlue</item>
+    </style>
+
+</resources>

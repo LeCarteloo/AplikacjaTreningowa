@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "282806027479",
+    "firebase_url": "https://aplikacjatreningowa-3793e.firebaseio.com",
+    "project_id": "aplikacjatreningowa-3793e",
+    "storage_bucket": "aplikacjatreningowa-3793e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282806027479:android:a6d09c2eda8c7da5fc9c92",
+        "android_client_info": {
+          "package_name": "com.example.aplikacjatreningowa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282806027479-h7am8sop22pfvmj7n2m6t2g6eut8krqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQPn-4D10P2dRWYUsNtlmYVDSf7nm_bTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282806027479-h7am8sop22pfvmj7n2m6t2g6eut8krqo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

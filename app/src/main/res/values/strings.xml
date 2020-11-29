@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AplikacjaTreningowa</string>
+    <string name="email">E-mail</string>
+    <string name="haslo">Hasło</string>
+    <string name="zaloguj">ZALOGUJ</string>
+    <string name="zapomnialesHasla">Zapomniałeś hasła?</string>
+    <string name="nowyUzytkownik">Nowy użytkownik? Zarejestruj się!</string>
+    <string name="maszKonto">Masz już konto?</string>
+    <string name="uzytIcon">Użytkownik</string>
+    <string name="imie">Imie</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="zarejestruj">Zarejestruj</string>
+    <string name="zaloz">Załóż konto już teraz!</string>
+    <string name="kontoZaloguj">Masz już konto? Zaloguj się!</string>
+    <string name="plan">Plan treningowy</string>
+
+    <string name="home">Home</string>
+    <string name="profil">Profil</string>
+    <string name="ustawienia">Ustawienia</string>
+    <string name="mojPlan">Mój plan</string>
+    <string name="wyloguj">Wyloguj</string>
+    <string name="przykladowePlany">Przykładowe plany</string>
+
+    <string name="otworzMenu">Otworz menu</string>
+    <string name="zamknijMenu">Zamknij menu</string>
+</resources>
