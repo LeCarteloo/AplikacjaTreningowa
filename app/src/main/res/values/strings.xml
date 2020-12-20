@@ -23,4 +23,11 @@
 
     <string name="otworzMenu">Otworz menu</string>
     <string name="zamknijMenu">Zamknij menu</string>
+
+    <string name="miesnieBrzucha">Mięsnie brzucha</string>
+    <string name="klatkaPiersiowa">Klatka piersiowa</string>
+
+    <string name="opisAbdominalCrunches">Leżąc twarzą do góry ze zgiętymi kolanami unieś górny odcinek pleców. Działa przede wszystkim na mięsnie brzucha: prosty i ukośny.</string>
+    <string name="abdominalCrunches">Abdominal Crunches</string>
+    <string name="legRaises">Leg Raises</string>
 </resources>
