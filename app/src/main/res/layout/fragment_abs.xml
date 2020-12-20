@@ -29,7 +29,7 @@
         android:textSize="40sp" />
 
     <LinearLayout
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_width="match_parent"
@@ -83,6 +83,7 @@
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
                 android:layout_height="100dp"
                 android:background="@drawable/legraises"/>
 
@@ -116,6 +117,107 @@
             android:layout_width="match_parent"
             android:layout_height="2dp"
             android:background="@color/lightBlue" />
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="100dp"
+                android:background="@drawable/russiantwist"/>
+
+            <TextView
+                android:id="@+id/russianTwist"
+                android:layout_marginTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="155dp"
+                android:text="@string/russianTwist"
+                android:gravity="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_marginLeft="155dp"
+                android:textSize="22sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0:30"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_below="@id/russianTwist"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/lightBlue" />
+
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="100dp"
+                android:background="@drawable/plank"/>
+
+            <TextView
+                android:id="@+id/plank"
+                android:layout_marginTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="155dp"
+                android:text="@string/plank"
+                android:gravity="center"
+                android:textColor="@color/lightBlue"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:layout_marginLeft="155dp"
+                android:textSize="22sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0:30"
+                android:gravity="center"
+                android:textColor="#FFF"
+                android:layout_below="@id/plank"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/lightBlue" />
+
+
+        <Button
+            android:id="@+id/startWorkout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="@string/zacznijTrening"
+            android:textColor="@color/dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/lightBlue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
 
     </LinearLayout>
 </RelativeLayout>

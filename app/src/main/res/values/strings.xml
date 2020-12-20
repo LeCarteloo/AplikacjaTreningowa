@@ -30,4 +30,8 @@
     <string name="opisAbdominalCrunches">Leżąc twarzą do góry ze zgiętymi kolanami unieś górny odcinek pleców. Działa przede wszystkim na mięsnie brzucha: prosty i ukośny.</string>
     <string name="abdominalCrunches">Abdominal Crunches</string>
     <string name="legRaises">Leg Raises</string>
+    <string name="zacznijTrening">Rozpocznij trening</string>
+    <string name="czasZero">00:00</string>
+    <string name="russianTwist">Russian Twist</string>
+    <string name="plank">Plank</string>
 </resources>
