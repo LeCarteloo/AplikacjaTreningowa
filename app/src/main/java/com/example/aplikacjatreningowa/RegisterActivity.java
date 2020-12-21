@@ -50,10 +50,19 @@ public class RegisterActivity extends AppCompatActivity {
 
         fAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
-      /*  if(fAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(),MainActivity.class));
-            finish();
-        } */
+
+       if(fAuth.getCurrentUser() != null) {
+           startActivity(new Intent(getApplicationContext(), MainActivity.class));
+           finish();
+       }
+
+        gotAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), LoginActivity.class));
+            }
+        });
+
 
         btnRegister.setOnClickListener(new View.OnClickListener() { //what happens after button is clicked
             @Override

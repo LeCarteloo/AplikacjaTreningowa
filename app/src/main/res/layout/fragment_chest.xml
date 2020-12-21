@@ -24,12 +24,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:gravity="center"
-        android:text="@string/miesnieBrzucha"
+        android:text="@string/klatkaPiersiowa"
         android:textColor="@color/white"
         android:textSize="40sp" />
 
     <LinearLayout
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="200dp"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_width="match_parent"
@@ -43,7 +43,7 @@
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="150dp"
                 android:layout_height="100dp"
-                android:background="@drawable/crunches"/>
+                android:background="@drawable/diamondpushup"/>
 
             <TextView
                 android:id="@+id/abdominalCrunches"
@@ -51,7 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="155dp"
-                android:text="@string/abdominalCrunches"
+                android:text="@string/diamondPushUp"
                 android:textColor="@color/lightBlue"
                 android:gravity="center"
                 android:textSize="22sp"
@@ -85,7 +85,7 @@
                 android:layout_width="150dp"
                 android:layout_marginLeft="20dp"
                 android:layout_height="100dp"
-                android:background="@drawable/legraises"/>
+                android:background="@drawable/pullup"/>
 
             <TextView
                 android:id="@+id/legRaises"
@@ -93,7 +93,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="155dp"
-                android:text="@string/legRaises"
+                android:text="@string/pullUp"
                 android:gravity="center"
                 android:textColor="@color/lightBlue"
                 android:textSize="22sp"
@@ -104,7 +104,7 @@
                 android:textSize="22sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="00:30"
+                android:text="01:30"
                 android:gravity="center"
                 android:textColor="#FFF"
                 android:layout_below="@id/legRaises"
@@ -127,7 +127,7 @@
                 android:layout_width="150dp"
                 android:layout_marginLeft="20dp"
                 android:layout_height="100dp"
-                android:background="@drawable/russiantwist"/>
+                android:background="@drawable/chest"/>
 
             <TextView
                 android:id="@+id/russianTwist"
@@ -135,50 +135,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="155dp"
-                android:text="@string/russianTwist"
-                android:gravity="center"
-                android:textColor="@color/lightBlue"
-                android:textSize="22sp"
-                />
-
-            <TextView
-                android:layout_marginLeft="155dp"
-                android:textSize="22sp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="00:40"
-                android:gravity="center"
-                android:textColor="#FFF"
-                android:layout_below="@id/russianTwist"
-                />
-
-        </RelativeLayout>
-
-        <View
-            android:layout_marginTop="3dp"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="@color/lightBlue" />
-
-
-        <RelativeLayout
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="100dp">
-
-            <pl.droidsonroids.gif.GifImageView
-                android:layout_width="150dp"
-                android:layout_marginLeft="20dp"
-                android:layout_height="100dp"
-                android:background="@drawable/plank"/>
-
-            <TextView
-                android:id="@+id/plank"
-                android:layout_marginTop="18dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="155dp"
-                android:text="@string/plank"
+                android:text="@string/benchPress"
                 android:gravity="center"
                 android:textColor="@color/lightBlue"
                 android:textSize="22sp"
@@ -192,7 +149,7 @@
                 android:text="01:00"
                 android:gravity="center"
                 android:textColor="#FFF"
-                android:layout_below="@id/plank"
+                android:layout_below="@id/russianTwist"
                 />
 
         </RelativeLayout>

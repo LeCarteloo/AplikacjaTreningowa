@@ -37,7 +37,11 @@ public class PlanFragment extends Fragment {
         pushUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                System.out.println("Dziala");
+                ChestFragment nextFragment = new ChestFragment();
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_container,nextFragment, "findThisFragment")
+                        .addToBackStack(null)
+                        .commit();
             }
         });
 

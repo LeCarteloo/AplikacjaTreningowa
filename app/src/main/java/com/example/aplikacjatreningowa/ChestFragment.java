@@ -1,6 +1,5 @@
 package com.example.aplikacjatreningowa;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,12 +10,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-public class AbsFragment extends Fragment {
+public class ChestFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_abs,container,false);
+        View v = inflater.inflate(R.layout.fragment_chest,container,false);
 
         Button btn =  v.findViewById(R.id.startWorkout);
 
@@ -25,7 +24,7 @@ public class AbsFragment extends Fragment {
             public void onClick(View v) {
                 StartWorkout startWorkout = new StartWorkout();
                 Bundle bundle = new Bundle();
-                bundle.putString("exercise","abs");
+                bundle.putString("exercise","chest");
                 startWorkout.setArguments(bundle);
                 getActivity().getSupportFragmentManager().beginTransaction()
                         .replace(R.id.fragment_container,startWorkout, "findThisFragment")
