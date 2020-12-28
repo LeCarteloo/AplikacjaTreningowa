@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">AplikacjaTreningowa</string>
     <string name="email">E-mail</string>
+    <string name="menu">Menu</string>
     <string name="haslo">Hasło</string>
     <string name="zaloguj">ZALOGUJ</string>
     <string name="zapomnialesHasla">Zapomniałeś hasła?</string>

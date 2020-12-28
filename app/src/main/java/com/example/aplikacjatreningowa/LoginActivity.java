@@ -34,6 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         progressLogin = findViewById(R.id.progressLogin);
         fAuth = FirebaseAuth.getInstance();
 
+
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

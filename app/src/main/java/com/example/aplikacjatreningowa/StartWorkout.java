@@ -56,11 +56,13 @@ public class StartWorkout extends Fragment {
         String selectedButton = getArguments().getString("exercise");
 
         if(selectedButton.equals("abs")) {
+            i = -1;
             workoutGif.setImageResource(R.drawable.crunches);
             startTimerAbs();
         }
         else
         {
+            i=0;
             nameOfExercise.setText(exercisesChest[0]);
             descriptionOfExercise.setText(descriptionChest[0]);
             workoutGif.setImageResource(gifListChest[0]);
@@ -116,7 +118,6 @@ public class StartWorkout extends Fragment {
             public void onFinish() {
                 i++;
                 if(i==3) {
-                    i=-1;
                     StyleableToast.makeText(getActivity(),"Ćwiczenie ukończone",R.style.toastBlue).show();
                     PlanFragment planFragment = new PlanFragment();
                     getActivity().getSupportFragmentManager().beginTransaction()
@@ -126,10 +127,10 @@ public class StartWorkout extends Fragment {
                     countDownTimer.cancel();
                 }
                 else{
-                    nameOfExercise.setText(exercisesChest[i+1]);
-                    descriptionOfExercise.setText(descriptionChest[i+1]);
-                    workoutGif.setImageResource(gifListChest[i+1]);
-                    timeLeftInMillis = timeOfChest[i+1];
+                    nameOfExercise.setText(exercisesChest[i]);
+                    descriptionOfExercise.setText(descriptionChest[i]);
+                    workoutGif.setImageResource(gifListChest[i]);
+                    timeLeftInMillis = timeOfChest[i];
                     timer.setText("00:00");
                     startTimerChest();
                 }
